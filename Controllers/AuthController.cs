@@ -26,7 +26,6 @@ namespace ArthvaTech.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            // ✅ Dummy user - replace with Dapper call in real project
             var user = await _repo.GetUserByEmailAsync(model.Email);
             if (user!= null && BCrypt.Net.BCrypt.Verify(model.Password, user.PasswordHash))
             {
