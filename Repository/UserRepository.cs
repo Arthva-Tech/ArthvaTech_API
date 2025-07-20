@@ -65,6 +65,16 @@ namespace ArthvaTech.API.Repository
             using var conn = _context.CreateConnection();
             return await conn.QueryFirstOrDefaultAsync<User>(query, new { Email = email }, commandType: CommandType.StoredProcedure);
         }
+        public async Task<int> ResetPasswordAsync(Guid userId, string passwordHash)
+        {
+            var query = "Sp_ResetUserPassword";
+            using var conn = _context.CreateConnection();
+            return await conn.ExecuteAsync(query, new
+            {
+                UserID = userId,
+                PasswordHash = passwordHash
+            }, commandType: CommandType.StoredProcedure);
+        }
 
     }
 }

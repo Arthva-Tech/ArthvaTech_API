@@ -95,3 +95,4 @@
 /Users/lavpatel/Desktop/ArthvaTech.API/obj/Release/net8.0/ArthvaTech.API.pdb
 /Users/lavpatel/Desktop/ArthvaTech.API/obj/Release/net8.0/ArthvaTech.API.genruntimeconfig.cache
 /Users/lavpatel/Desktop/ArthvaTech.API/obj/Release/net8.0/ref/ArthvaTech.API.dll
+/Users/lavpatel/Desktop/ArthvaTech.API/obj/Release/net8.0/ArthvaTech.API.sourcelink.json

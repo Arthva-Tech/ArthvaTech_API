@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArthvaTech.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8bc30bd61b17e3fbd483aa90e85a60eadd10717")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArthvaTech.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArthvaTech.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
