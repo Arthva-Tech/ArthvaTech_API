@@ -100,3 +100,4 @@
 /Users/lavpatel/Desktop/ArthvaTech.API/bin/Debug/net8.0/publish/appsettings.json
 /Users/lavpatel/Desktop/ArthvaTech.API/bin/Debug/net8.0/publish/ArthvaTech.API.deps.json
 /Users/lavpatel/Desktop/ArthvaTech.API/bin/Debug/net8.0/publish/ArthvaTech.API.runtimeconfig.json
+/Users/lavpatel/Desktop/ArthvaTech.API/obj/Debug/net8.0/ArthvaTech.API.sourcelink.json

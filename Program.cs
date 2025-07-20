@@ -11,6 +11,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSingleton<DapperContext>();
 builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<ProjectRepository>();
+builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
 
 // Register JwtService
 builder.Services.AddSingleton<JwtService>();
